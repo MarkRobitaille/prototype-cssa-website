@@ -2,7 +2,7 @@
   <b-container fluid>
     <b-row align-h="center">
       <b-col sm="11" class="pt-2 pb-2 page-content">
-        <b-jumbotron header="Execs" fluid>Meet the people elected to run the Computer Science Students' Association.</b-jumbotron>
+        <b-jumbotron class="mt-2" header="Execs" fluid>Meet the people elected to run the Computer Science Students' Association.</b-jumbotron>
         <b-row align-h="center">
           <b-col sm="12">
           <b-card-group deck>
@@ -61,18 +61,26 @@
           </b-card-group>
           </b-col>
         </b-row>
+        <b-row class="mt-4">
+          <b-col>
+            <Footer></Footer>
+          </b-col>
+        </b-row>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Execs",
   data() {
     return {};
   },
-  components: {}
+  components: {
+    Footer
+  }
 };
 </script>
 

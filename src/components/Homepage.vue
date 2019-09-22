@@ -4,32 +4,22 @@
       <b-col sm="11">
         <h2>Welcome to the website of University of Manitoba's Computer Science Students' Association!</h2>
         <p>Join us in room E1-586 and follow us on social media.</p>
-        <p>
-          <a href="https://umanitobacssa.slack.com/signup" class="mr-1">
-            <font-awesome-icon :icon="['fab', 'slack']" size="2x" />
-          </a>
-          <a href="https://facebook.com/pg/uofmcssa" class="mr-1">
-            <font-awesome-icon :icon="['fab', 'facebook-square']" size="2x" />
-          </a>
-          <a href="https://instagram.com/umanitobacssa/" class="mr-1">
-            <font-awesome-icon :icon="['fab', 'instagram']" size="2x" />
-          </a>
-          <a href="mailto:umanitobacssa@gmail.com">
-            <font-awesome-icon :icon="['fas', 'envelope']" size="2x" />
-          </a>
-        </p>
+        <Footer variant="light"></Footer>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Homepage",
   data() {
     return {};
   },
-  components: {}
+  components: {
+    Footer
+  }
 };
 </script>
 
@@ -50,11 +40,5 @@ export default {
   position: absolute;
   bottom: 5vh;
   width: 100%;
-}
-a {
-  color: white;
-}
-a:hover {
-  color: gray;
 }
 </style>
