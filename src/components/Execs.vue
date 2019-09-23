@@ -48,7 +48,7 @@
                 title="John Manning"
                 header="Vice-President (Public Relations)"
                 img-top
-                class="mt-2 mb-2 text-left"
+                class="mb-2 text-left"
               >
                 <b-card-text>Here is some sample text talking about John. Lots of text about how he's the vice president and how he's a PR superstar.</b-card-text>
               </b-card>
@@ -57,7 +57,7 @@
                 title="Mark Robitaille"
                 header="Vice-President (Social Media)"
                 img-top
-                class="mt-2 mb-2 text-left"
+                class="mb-2 text-left"
               >
                 <b-card-text>Here is some sample text talking about Mark. Lots of text about how he's the vice president and how he doesn't believe that all 4 of us can be the vice president since it doens't make sense.</b-card-text>
               </b-card>
