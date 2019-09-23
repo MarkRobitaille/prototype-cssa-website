@@ -27,7 +27,7 @@ export default {
 .page-image {
   height: calc(100vh - 76px);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("~@/assets/home-image2.jpg");
+    url("~@/assets/home-image.jpg");
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: cover;

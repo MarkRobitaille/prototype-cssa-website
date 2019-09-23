@@ -25,20 +25,20 @@
                 </b-form-group>
                 <b-row align-h="center">
                   <b-col sm="2">
-                    <b-button type="submit" :variant="submitStatus" block>
+                    <b-button type="submit" :variant="submitStatus" block class="mt-1 mb-1">
                       {{submitButton}}
                       <b-spinner v-if="formLoading" class="ml-1" variant="light" small />
                     </b-button>
                   </b-col>
                   <b-col sm="2">
-                    <b-button type="reset" variant="warning" block>Reset</b-button>
+                    <b-button type="reset" variant="warning" block class="mt-1 mb-1">Reset</b-button>
                   </b-col>
                 </b-row>
               </b-form-fieldset>
             </b-form>
           </b-col>
         </b-row>
-        <b-row class="mt-4">
+        <b-row class="mt-3">
           <b-col>
             <Footer></Footer>
           </b-col>
