@@ -11,10 +11,10 @@
           <b-col>
             <b-form @submit="onSubmit" @reset="onReset" v-if="show" :disabled="formLoading">
               <b-form-fieldset :disabled="formLoading">
-                <b-form-group label-cols="4" label-cols-lg="2" label="Given Name">
+                <b-form-group label-cols="4" label-cols-lg="2" label="Given Name:">
                   <b-form-input v-model="form.name" required placeholder="Enter Given Name"></b-form-input>
                 </b-form-group>
-                <b-form-group label-cols="4" label-cols-lg="2" label="Surname">
+                <b-form-group label-cols="4" label-cols-lg="2" label="Surname:">
                   <b-form-input v-model="form.surname" required placeholder="Enter Surname"></b-form-input>
                 </b-form-group>
                 <b-form-group label-cols="4" label-cols-lg="2" label="Email:">
