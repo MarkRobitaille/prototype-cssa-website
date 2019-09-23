@@ -35,23 +35,23 @@
           </b-col>
         </b-row>
         <b-row align-h="center" class="mt-2 text-left">
-          <b-col sm="4">
-            <b-card
-              title="Game Jam"
-              header="Date: November 8th-10th, 2019"
-              footer="Location: EITC E2-XXX"
-            >
-              <b-card-text>Are you interested in making games? Join us on the first weekend of reading week to take part in CSSA's first game jam. Find a group or work independently to create a game! Beginners encouraged to come!</b-card-text>
-            </b-card>
-          </b-col>
-          <b-col sm="4">
-            <b-card
-              title="Programming Contest"
-              header="Date: Winter 2020"
-              footer="Location: To Be Decided"
-            >
-              <b-card-text>Join us on our annual programming contest! Solve problems independently, with difficulty ranging from easy to hard. All students welcome!</b-card-text>
-            </b-card>
+          <b-col sm="8">
+            <b-card-group deck>
+              <b-card
+                title="Game Jam"
+                header="Date: November 8th-10th, 2019"
+                footer="Location: EITC E2-XXX"
+              >
+                <b-card-text>Are you interested in making games? Join us on the first weekend of reading week to take part in CSSA's first game jam. Find a group or work independently to create a game! Beginners encouraged to come!</b-card-text>
+              </b-card>
+              <b-card
+                title="Programming Contest"
+                header="Date: Winter 2020"
+                footer="Location: To Be Decided"
+              >
+                <b-card-text>Join us on our annual programming contest! Solve problems independently, with difficulty ranging from easy to hard. All students welcome!</b-card-text>
+              </b-card>
+            </b-card-group>
           </b-col>
         </b-row>
         <b-row class="mt-3">
@@ -66,13 +66,15 @@
         </b-row>
         <b-row align-h="center" class="mt-2 text-left">
           <b-col sm="4">
-            <b-card
-              title="CS Mixer"
-              header="Date: September 20th, 2019"
-              footer="Location: EITC E2-609"
-            >
-              <b-card-text>Meet and mingle with other students interested in Computer Science. Organized in collaboration by CSSA, .devClub, UM WICS, and MISA. Brought to you by our sponsor, SkipTheDishes!</b-card-text>
-            </b-card>
+            <b-card-group deck>
+              <b-card
+                title="CS Mixer"
+                header="Date: September 20th, 2019"
+                footer="Location: EITC E2-609"
+              >
+                <b-card-text>Meet and mingle with other students interested in Computer Science. Organized in collaboration by CSSA, .devClub, UM WICS, and MISA. Brought to you by our sponsor, SkipTheDishes!</b-card-text>
+              </b-card>
+            </b-card-group>
           </b-col>
         </b-row>
         <b-row class="mt-4">
