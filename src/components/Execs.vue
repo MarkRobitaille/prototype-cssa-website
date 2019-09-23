@@ -17,7 +17,7 @@
                 img-top
                 class="mb-2 text-left"
               >
-                <b-card-text>Here is some sample text talking about Ahmed. Lots of text about how he's the president and thus has the power to fire off the non-existant CS nukes. Truly powerful.</b-card-text>
+                <b-card-text>Here is some sample text talking about Ahmed. Lots of text about how he's the President and thus has the authority to fire off the non-existant CS nukes. Truly powerful.</b-card-text>
               </b-card>
               <b-card
                 img-src="@/assets/emanuel.jpg"
@@ -26,7 +26,7 @@
                 img-top
                 class="mb-2 text-left"
               >
-                <b-card-text>Here is some sample text talking about Emanuel. Lots of text about how he's the vice president and knows everyone.</b-card-text>
+                <b-card-text>Here is some sample text talking about Emanuel. Lots of text about how he's the Vice-President and knows everyone.</b-card-text>
               </b-card>
               <b-card
                 img-src="@/assets/stephanie.jpg"
@@ -35,7 +35,7 @@
                 img-top
                 class="mb-2 text-left"
               >
-                <b-card-text>Here is some sample text talking about Stephanie. Lots of text about how she's the vice president and super smart.</b-card-text>
+                <b-card-text>Here is some sample text talking about Stephanie. Lots of text about how she's the Vice-President and super smart.</b-card-text>
               </b-card>
             </b-card-group>
           </b-col>
@@ -50,7 +50,7 @@
                 img-top
                 class="mb-2 text-left"
               >
-                <b-card-text>Here is some sample text talking about John. Lots of text about how he's the vice president and how he's a PR superstar.</b-card-text>
+                <b-card-text>Here is some sample text talking about John. Lots of text about how he's the Vice-President and how he's a PR superstar.</b-card-text>
               </b-card>
               <b-card
                 img-src="@/assets/mark.jpg"
@@ -59,7 +59,7 @@
                 img-top
                 class="mb-2 text-left"
               >
-                <b-card-text>Here is some sample text talking about Mark. Lots of text about how he's the vice president and how he doesn't believe that all 4 of us can be the vice president since it doens't make sense.</b-card-text>
+                <b-card-text>Here is some sample text talking about Mark. Lots of text about how he's the Vice-President and how he doesn't believe that all 4 of us can be Vice-Presidents since it doesn't make sense.</b-card-text>
               </b-card>
             </b-card-group>
           </b-col>
