@@ -77,7 +77,6 @@ export default {
       this.axios
         .post("https://formcarry.com/s/XaTDp9NyI6I", this.form)
         .then(res => {
-          console.log(res);
           if (res.data && res.data.status == "success") {
             vm.submitButton = "Submitted";
             vm.submitStatus = "success";
