@@ -29,6 +29,14 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes
 })
+router.beforeEach((to, from, next) => {
+  if (to.meta.title) {
+    document.title = to.meta.title;
+  } else {
+    document.title = "UManitoba CSSA"
+  }
+  next();
+})
  
 // Use Axios
 Vue.use(VueAxios, axios)
