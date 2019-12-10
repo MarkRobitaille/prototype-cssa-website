@@ -9,33 +9,53 @@
         >Fill in the form below or contact us via social media.</b-jumbotron>
         <b-row>
           <b-col>
-            <b-form @submit="onSubmit" @reset="onReset" v-if="show" :disabled="formLoading">
-              <b-form-fieldset :disabled="formLoading">
-                <b-form-group label-cols="4" label-cols-lg="2" label="Given Name:">
-                  <b-form-input v-model="form.name" required placeholder="Enter Given Name"></b-form-input>
-                </b-form-group>
-                <b-form-group label-cols="4" label-cols-lg="2" label="Surname:">
-                  <b-form-input v-model="form.surname" required placeholder="Enter Surname"></b-form-input>
-                </b-form-group>
-                <b-form-group label-cols="4" label-cols-lg="2" label="Email:">
-                  <b-form-input v-model="form.email" required placeholder="Enter Email"></b-form-input>
-                </b-form-group>
-                <b-form-group label-cols="4" label-cols-lg="2" label="Message:">
-                  <b-form-input v-model="form.message" required placeholder="Enter Message"></b-form-input>
-                </b-form-group>
-                <b-row align-h="center">
-                  <b-col sm="2">
-                    <b-button type="submit" :variant="submitStatus" block class="mt-1 mb-1">
-                      {{submitButton}}
-                      <b-spinner v-if="formLoading" class="ml-1" variant="light" small />
-                    </b-button>
-                  </b-col>
-                  <b-col sm="2">
-                    <b-button type="reset" variant="warning" block class="mt-1 mb-1">Reset</b-button>
-                  </b-col>
-                </b-row>
-              </b-form-fieldset>
-            </b-form>
+            <b-form-fieldset :disabled="formLoading">
+              <b-form-group label-cols="4" label-cols-lg="2" label="First Name:">
+                <b-form-input v-model="form.name" required placeholder="Enter Given Name"></b-form-input>
+              </b-form-group>
+              <b-form-group label-cols="4" label-cols-lg="2" label="Last Name:">
+                <b-form-input v-model="form.surname" required placeholder="Enter Surname"></b-form-input>
+              </b-form-group>
+              <b-form-group label-cols="4" label-cols-lg="2" label="Email:">
+                <b-form-input v-model="form.email" required placeholder="Enter Email"></b-form-input>
+              </b-form-group>
+              <b-form-group label-cols="4" label-cols-lg="2" label="Message:">
+                <b-form-textarea
+                  v-model="form.message"
+                  required
+                  placeholder="Enter Message"
+                  rows="3"
+                  max-rows="6"
+                ></b-form-textarea>
+              </b-form-group>
+              <b-row align-h="center">
+                <b-col sm="2">
+                  <b-button
+                    type="submit"
+                    :variant="submitStatus"
+                    block
+                    class="mt-1 mb-1"
+                    @click="onSubmit()"
+                  >
+                    {{submitButton}}
+                    <b-spinner v-if="formLoading" class="ml-1" variant="light" small />
+                  </b-button>
+                </b-col>
+                <b-col sm="2">
+                  <b-button variant="warning" block class="mt-1 mb-1" @click="onReset()">Reset</b-button>
+                </b-col>
+              </b-row>
+            </b-form-fieldset>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col>
+            <div
+              v-if="submitStatus=='success'"
+            >Thank you for contacting the University of Manitoba's Computer Science Students' Association.</div>
+            <div
+              v-else-if="submitStatus=='danger'"
+            >It appears there was an error submitting the form. Please try again or contact us via social media.</div>
           </b-col>
         </b-row>
         <b-row class="mt-3">
