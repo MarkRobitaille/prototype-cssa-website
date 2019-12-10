@@ -11,10 +11,10 @@
           <b-col>
             <b-form-fieldset :disabled="formLoading">
               <b-form-group label-cols="4" label-cols-lg="2" label="First Name:">
-                <b-form-input v-model="form.name" required placeholder="Enter Given Name"></b-form-input>
+                <b-form-input v-model="form.name" required placeholder="Enter First Name"></b-form-input>
               </b-form-group>
               <b-form-group label-cols="4" label-cols-lg="2" label="Last Name:">
-                <b-form-input v-model="form.surname" required placeholder="Enter Surname"></b-form-input>
+                <b-form-input v-model="form.surname" required placeholder="Enter Last Name"></b-form-input>
               </b-form-group>
               <b-form-group label-cols="4" label-cols-lg="2" label="Email:">
                 <b-form-input v-model="form.email" required placeholder="Enter Email"></b-form-input>
