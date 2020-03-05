@@ -1,31 +1,11 @@
-# prototype-cssa-website
+# Prototype UManitoba CSSA Website
 
-A prototype website for the UManitoba CSSA made in Vue.
+A prototype website for the University of Manitoba CSSA (Computer Science Students' Association) made in Vue, designed to show potential appearance and behavior.
 
-## Project setup
-```
-npm install
-```
+Created by [Mark Robitaille](http://markrobitaille.ca/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Developed using the following:  
+* [Vue.js](https://vuejs.org/)
+* [Vue Router](https://router.vuejs.org/)
+* [BootstrapVue](https://bootstrap-vue.js.org/)
+* [Font Awesome 5 Vue Component](https://github.com/FortAwesome/vue-fontawesome)
